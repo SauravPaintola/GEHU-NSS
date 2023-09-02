@@ -29,7 +29,7 @@ export default function App() {
   return (
     <div style={appStyle}>
       <ShowConfetti />
-      <ShowText/>
+      <ShowText />
     </div>
 
   )
