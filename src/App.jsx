@@ -1,7 +1,5 @@
 import ConfettiExplosion from 'react-confetti-explosion';
 import ShowText from './ShowText'
-import ShowTextTwo from './ShowTextTwo';
-import ShowLayerTwo from './ShowLayerTwo';
 
 function ShowConfetti() {
   const confettiStyle = {
@@ -31,9 +29,6 @@ export default function App() {
   return (
     <div style={appStyle}>
       <ShowConfetti />
-      <ShowText />
-      <ShowLayerTwo />
-      <ShowTextTwo />
     </div>
 
   )
