@@ -17,7 +17,7 @@ export default function ShowText() {
   return (
     <>
       {isVisible && (
-        <Fade delay={2000} direction={"bottom"} duration={3000}>
+          <Fade delay={2000} direction={"bottom"} duration={3000}>
           <div className="headings ">
             <h1>Hello, </h1>
             <h1>Fresher!</h1>
